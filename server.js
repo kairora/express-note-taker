@@ -8,9 +8,10 @@ const PORT = process.env.PORT || 8080;
 // express app handles data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static("public"))
 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+// require("./routes/apiRoutes")(app);
+// require("./routes/htmlRoutes")(app);
 
 // server listens on the port and informs
 app.listen(PORT, () => {
