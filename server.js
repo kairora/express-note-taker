@@ -12,3 +12,7 @@ app.use(express.json());
 require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
 
+// server listens on the port and informs
+app.listen(PORT, () => {
+    console.log("App is listening on PORT: " + PORT)
+})
