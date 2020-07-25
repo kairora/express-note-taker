@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 // app.get("./assets/js/index.js")
 
-// require("./routes/apiRoutes")(app);
+require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
 
 // server listens on the port and informs
