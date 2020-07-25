@@ -28,7 +28,7 @@ The user the project, the user must first create a server by running the code be
 ~~~ 
 node start 
 ~~~ 
-Once the server is running, then the user can open their browser and input the URL `localhost:PORT` where PORT is `8080`.  Once inside the app, the user can then click "Get Started".  On the next screen, the user can then input their note title, their note content and click the save icon button in the top right corner. From there, the user can choose to create a new note using the pencil icon, or review or delete their previous notes from the saved note sections on the left of the screen. To be taken back to the home screen, click the "Note Taker" anchor in the top left of the screen,
+Once the server is running, then the user can open their browser and input the URL `localhost:PORT` where PORT is `8080`.  Once inside the app, the user can then click "Get Started".  On the next screen, the user can then input their note title and note content, and click the save icon button in the top right corner. From there, the user can choose to create a new note using the pencil icon, or review or delete their previous notes from the saved note sections on the left of the screen by clicking the trashcan icon. To be taken back to the home screen, click the "Note Taker" anchor in the top left of the screen.
 
 ---
 
@@ -42,15 +42,10 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
 
 ---
 ## Contributing
-If a developer would like to contribute to this project, please send me an email at the email below.
+If a developer would like to contribute to this project, please send me an email at the email link at the bottom of this README.
 
-## Tests
-~~~JS
-node start
-~~~
----
 
 ## Questions
 
-You can visit my [Github Profile](https://www.github.com/kairora) or [this app's Github repo](https://github.com/kairora/express-note-taker) to learn more about this CLI.
+You can visit my [Github Profile](https://www.github.com/kairora) or [this app's Github repo](https://github.com/kairora/express-note-taker) to learn more about this CLI. You can also visit the [deployed app at this link](https://limitless-falls-62447.herokuapp.com/notes). 
 Or, if you have questions regarding this CLI program, please [send me an email](mailto:brianna.bullock16@gmail.com). 
